@@ -4,8 +4,11 @@
 
 如果本插件帮助到你，请帮忙右上角点个Star就对作者很大的支持了～
 
-使用教程: [点击查看](https://ricedoc.handyplus.cn/wiki/RiceNotice)  
-下载地址: [点击查看](https://github.com/handy-git/RiceNotice/releases)
+使用教程: [点击查看](https://ricedoc.handyplus.cn/wiki/RiceNotice)
+
+开发版本下载渠道:
+
+[GITHUB ACTIONS](https://github.com/handy-git/PlayerChat/actions)
 
 ## 使用统计
 
