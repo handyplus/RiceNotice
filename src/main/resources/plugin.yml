@@ -1,0 +1,19 @@
+name: RiceNotice
+main: cn.handyplus.rice.notice.RiceNotice
+version: 1.0.0
+author: handy
+website: https://ricedoc.handyplus.cn/wiki/RiceNotice/
+api-version: 1.13
+description: 米饭公告插件
+folia-supported: true
+commands:
+  riceNotice:
+    description: 米饭公告插件
+permissions:
+  riceNotice.*:
+    description: 米饭公告插件
+    children:
+      riceNotice.reload: true
+  riceNotice.reload:
+    description: 重载插件
+    default: op
