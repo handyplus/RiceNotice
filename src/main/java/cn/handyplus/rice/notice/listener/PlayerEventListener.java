@@ -3,7 +3,6 @@ package cn.handyplus.rice.notice.listener;
 import cn.handyplus.lib.annotation.HandyListener;
 import cn.handyplus.lib.constants.BaseConstants;
 import cn.handyplus.lib.util.HandyHttpUtil;
-import cn.handyplus.rice.notice.constants.BaseNoticeConstants;
 import cn.handyplus.rice.notice.util.ConfigUtil;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
@@ -24,7 +23,7 @@ public class PlayerEventListener implements Listener {
         if (!ConfigUtil.CONFIG.getBoolean(BaseConstants.IS_CHECK_UPDATE_TO_OP_MSG, true)) {
             return;
         }
-        HandyHttpUtil.checkVersion(event.getPlayer(), BaseNoticeConstants.PLUGIN_VERSION_URL);
+        HandyHttpUtil.checkVersion(event.getPlayer());
     }
 
 }
